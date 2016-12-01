@@ -1,0 +1,72 @@
+/*  Colors:
+    fg: #81939E
+    bg: #002E53
+    ac: #B88906 */
+body {
+    color: #81939E;
+    background-color: #002E53;
+    /* border-top: 4px solid #f90; */
+
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 125%;
+    line-height: 1.25;
+
+    word-wrap: break-word;
+
+    -webkit-text-size-adjust: 100%;
+}
+
+#headerbg {
+    width: 100%;
+    height: 6.25em;
+    margin-bottom: -6.25em;
+    background-color: #B88906;
+}
+
+.central {
+    position: relative;
+    width: 17em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 0 auto;
+}
+
+a, a:visited {
+    color: #81939E;
+}
+
+a:hover, a:focus, a:active {
+    color: #B88906;
+    border-bottom: none;
+}
+
+h1 {
+    color: #002E53  ;
+    font-weight: normal;
+    font-size: 2.5em;
+
+    margin-top: 1em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 1.5em;
+
+    margin-top: .5em;
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: .25em;
+}
+
+hr {
+    background: #ccc;
+    height: 1px;
+    border: none;
+}
