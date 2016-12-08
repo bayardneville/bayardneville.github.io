@@ -1,11 +1,10 @@
 /*  Colors:
-    fg: #81939E
+    fg: #899297
     bg: #002E53
     ac: #B88906 */
 body {
-    color: #81939E;
+    color: #899297;
     background-color: #002E53;
-    /* border-top: 4px solid #f90; */
 
     padding: 0;
     margin: 0;
@@ -35,7 +34,7 @@ body {
 }
 
 a, a:visited {
-    color: #81939E;
+    color: #899297;
 }
 
 a:hover, a:focus, a:active {
