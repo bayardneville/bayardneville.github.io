@@ -1,71 +1,62 @@
-/*  Colors:
-    fg: #899297
-    bg: #002E53
-    ac: #B88906 */
-body {
-    color: #899297;
-    background-color: #002E53;
+html {
+  font: 100 1.25em/1.5 "Avenir Next", Avenir, sans-serif;
 
-    padding: 0;
-    margin: 0;
+  color: #999;
+  background-color: #333;
 
-    font-family: 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 125%;
-    line-height: 1.25;
-
-    word-wrap: break-word;
-
-    -webkit-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
 
-#headerbg {
-    width: 100%;
-    height: 6.25em;
-    margin-bottom: -6.25em;
-    background-color: #B88906;
-}
+body,header,main,h1,p,hr {
+  padding: 0;
+  margin: 0;
+  margin-bottom:1.5rem;
+} 
 
-.central {
-    position: relative;
-    width: 17em;
-    padding-left: 1em;
-    padding-right: 1em;
-    margin: 0 auto;
+main {
+  width: 24rem;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a, a:visited {
-    color: #899297;
+  color: #999;
+  text-decoration: none;
+  border-bottom: 1px solid #666;
 }
 
 a:hover, a:focus, a:active {
-    color: #B88906;
-    border-bottom: none;
+  color: #ccc;
+  text-decoration: none;
+  border-bottom: none; }
+
+header > a {
+  padding-bottom: .2em;
+  padding-left:   .5em;
+  padding-right:  .5em;
+
+  text-decoration: none;
+  border-bottom: none;
 }
 
 h1 {
-    color: #002E53  ;
-    font-weight: normal;
-    font-size: 2.5em;
-
-    margin-top: 1em;
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-
-h2 {
-    font-weight: 500;
-    font-size: 1.5em;
-
-    margin-top: .5em;
-    margin-bottom: 0;
-}
-
-p {
-    margin-top: .25em;
+  font-weight: 100;
+  font-size: 2rem;
 }
 
 hr {
-    background: #ccc;
-    height: 1px;
-    border: none;
+  background: #666;
+  height: 1px;
+  border: none;
+}
+
+a.current {
+  color: #ccc;
+  background-color: #666;
+}
+
+.banner {
+  font-size: 4em;
 }
