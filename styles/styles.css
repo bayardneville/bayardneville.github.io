@@ -1,20 +1,21 @@
 html {
   font: 1.25em/1.5 "Avenir Next", Avenir, sans-serif;
 
-  color: #999;
-  background-color: #333;
+  color: #ddd;
+  background-color: #222;
 
   -webkit-text-size-adjust: 100%;
 }
 
-body,header,main,h1,p,hr {
+body,header,main,h1,h2,p,hr {
   padding: 0;
   margin: 0;
-  margin-bottom:1rem;
+  margin-bottom:.5rem;
 } 
 
-main {
+body {
   width: 20rem;
+  padding-top: 1em;
   padding-left: 1em;
   padding-right: 1em;
   margin-left: auto;
@@ -22,41 +23,26 @@ main {
 }
 
 a, a:visited {
-  color: #999;
+  color: #ddd;
 }
 
 a:hover, a:focus, a:active {
-  color: #ccc;
+  color: #ddd;
   text-decoration: none;
-}
-
-header > a {
-  padding-top: .2em;
-  padding-bottom: .2em;
-  padding-left:   .5em;
-  padding-right:  .5em;
-
-  text-decoration: none;
-  border-bottom: none;
 }
 
 h1 {
-  font-weight: 400;
-  font-size: 2rem;
+  font-weight: normal;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 1.5rem;
 }
 
 hr {
-  background: #666;
+  background: #bbb;
   height: 1px;
   border: none;
-}
-
-a.current {
-  color: #ccc;
-  background-color: #666;
-}
-
-.banner {
-  font-weight: 100;
-  font-size: 4em;
 }
