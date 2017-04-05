@@ -1,7 +1,7 @@
 body {
   font-family: "Avenir Next", "Avenir", "Helvetica Neue", Helvetica, sans-serif;
   margin: 0;
-  background-color: #002E53;
+  background-color: #222;
 }
 
 canvas {
@@ -20,7 +20,13 @@ img {
 }
 
 a {
-  color: #002E53;
+  color: #26c;
+}
+
+hr {
+  background: #666;
+  height: 1px;
+  border: none;
 }
 
 #statusbar {
@@ -30,8 +36,8 @@ a {
   width: 100%;
   z-index: 3;
 
-  background-color: #B88906;
-  color: #002E53;
+  background-color: #ccc;
+  color: #222;
 }
 
 #status {

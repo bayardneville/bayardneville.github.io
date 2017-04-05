@@ -4,9 +4,9 @@
 var selected = false;
 var _isDown, _points, _r, _g, _rc;
 var useProtractor = true;
-var grayColor = "#899297";
-var blueColor = "#002E53";
-var orangeColor = "#B88906";
+var grayColor = "#ccc";
+var blueColor = "#222";
+var orangeColor = "#26c";
 function resizeCanvas() {
   var canvas = document.getElementById('myCanvas');
   canvas.width = document.body.clientWidth > window.innerWidth ? document.body.clientWidth : window.innerWidth;
