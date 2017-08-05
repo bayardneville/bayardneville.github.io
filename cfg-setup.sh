@@ -1,0 +1,15 @@
+#!/bin/bash
+backup_dir=".cfg-backup"
+git clone --bare git@github.com:bayardneville/dotfiles.git ~/.cfg
+function cfg {
+  git --git-dir=${HOME}/.cfg/ --work-tree=${HOME} $@
+}
+cfg checkout 2> /dev/null
+if [ $? ]; then
+  echo "Backing up files"
+  mkdir ${backup_dir} 2> /dev/null && echo "Created .cfg-backup"
+  cfg checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | xargs -I{} mv {} .cfg-backup/{}
+  cfg checkout
+fi
+cfg config status.showUntrackedFiles no
+echo "Done"
