@@ -11,5 +11,5 @@ if [ $? ]; then
   cfg checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | xargs -I{} mv {} .cfg-backup/{}
   cfg checkout
 fi
-cfg config status.showUntrackedFiles no
+cfg config --local status.showUntrackedFiles no
 echo "Done"
