@@ -1,50 +1,21 @@
 * {
-  margin: 0;
   padding: 0;
-  outline: none;
-  margin-bottom:.5rem;
+  margin: .25ch auto;
+  border: none;
 }
-
 html {
-  font: 1.25em/1.5 "Avenir Next", Avenir, sans-serif;
-
-  color: #bbb;
-  background-color: #000;
-
+  font: 1.25em/1.5 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
   -webkit-text-size-adjust: 100%;
 }
-
 body {
-  width: 20rem;
-  padding-top: 1em;
-  padding-left: 1em;
-  padding-right: 1em;
-  margin-left: auto;
-  margin-right: auto;
+  width: 30ch;
+  padding: 1ch;
+  margin: auto;
 }
-
-a, a:visited {
-  color: #26c;
-}
-
 a:hover, a:focus, a:active {
   text-decoration: none;
 }
-
-h1,h2,h3,h4,h5,h6 {
-  font-weight: normal;
-}
-
-h1 {
-  font-size: 2.5rem;
-}
-
-h2 {
-  font-size: 1.5rem;
-}
-
 hr {
-  background: #666;
-  height: 1px;
-  border: none;
+  background: #000;
+  height: 1ch;
 }
